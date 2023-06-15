@@ -222,7 +222,8 @@ main (int argc, char *argv[])
       else
       {
           g_printerr ("Current desktop (XDG_CURRENT_DESKTOP) is unsupported: %s\n", xdg_desktop);
-          return 1;
+          mode = "cinnamon";
+          // return 1;
       }
   }
 
